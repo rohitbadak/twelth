@@ -1,0 +1,191 @@
+
+          /* That is all fr all work */
+
+*{padding:0 ;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+          /* Part for only Header */
+header{
+    height: 100px;
+    background-color: rgb(11, 11, 11);
+
+}
+#a1{
+  
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+   padding: 20px;
+    
+       box-shadow for Header 
+        box-shadow: 0 0 5px aqua,
+       0 0 25px aqua,0 0 50px aqua,
+       0 0 100px aqua, 0 0 200px aqua; 
+} 
+ 
+       /* only for Name Runing  */
+ .d1{
+    font-size: 30px;
+    background-color: #222f3d;
+    color: white;
+padding-top: 20px;
+    
+ }
+
+
+                                                          /* typing effect */
+
+
+ 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.typ{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* min-height: 100vh; */
+background-color: #b5ff6f;
+
+}
+.wrapper{
+  display: inline-flex;
+}
+.wrapper .static-txt{
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+
+}
+.wrapper .dynmic-txts{
+margin-left: 15px;
+height: 90px;
+line-height: 90px;
+
+overflow: hidden;
+}
+.dynamic-txts li{
+  color: #000000;
+  list-style: none;
+  font-size: 60px;
+  font-weight: 500;
+  animation: slide 1.5s steps(10) infinite;
+}
+
+.dynamic-txts li span::after{
+  position: relative;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  border-left: 2px solid #fc6d6d;
+  animation:typing 1.5s steps(100) infinite;
+}
+
+@keyframes typing{
+  100%{
+      left: 100%;
+      margin: 0 -35px 0 35px;
+
+  }
+}
+                                                 /* only hear typing effect */
+
+
+
+
+       /* only for Name Upper Link */
+       .d2{
+        text-decoration: none;
+        font-size: 20px;
+     
+
+      color: black;
+       }
+       .d3{
+     
+        display: flex;
+        justify-content: space-evenly;
+      
+      }
+/* 
+            Notes for Math  */
+       .d4{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+
+       }    
+       
+                  /* this is only main work */
+
+       .main1{
+
+        background-color: rgb(238, 227, 215);
+        height: 400px;
+       }
+
+               /* that is footer work     */
+     footer1{
+      margin-bottom: 2px;
+    
+
+          }
+
+               /* that is footer work  me First div  */
+
+               .foot-panel{
+                background-color: #37475a;
+                color: white;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 0.85rem;
+                font-size: 30px;
+
+                
+
+               }
+/*          
+               that is footer bottom deatal */
+
+               .foot-panel2{
+                background-color: #222f3d;
+                color: white;
+                height: 600px;
+                display: flex;
+                justify-content: space-evenly;
+               }
+
+               ul a {
+                display: block;
+                font-size: 0.85rem;
+                margin-top: 10px;
+               }
+               /* this is for chapter name */
+               p{
+                font-size: 20px;
+                color: rgb(14, 255, 227);
+                padding: 5px;
+               }
+
+               /* this is the footer last work */
+               .foot-panel3{
+                background-color: #37475a;
+                color: white;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               }
